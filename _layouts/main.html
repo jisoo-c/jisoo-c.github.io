@@ -38,6 +38,8 @@ layout: default
         {% endif %} -->
         {% if site.social-email %}
           <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
+        {% else %}
+          <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
         {% endif %}
         {% if site.social-researchgate %}
           <li class="researchgate">
