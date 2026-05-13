@@ -1493,27 +1493,3 @@ a.newer-posts:hover {
   object-fit: cover !important;
   display: block !important;
 }
-
-/* 1) 사이드바와 post 영역 사이 간격 */
-.content-box {
-  padding-left: 40px !important;
-}
-
-/* 2) 메인페이지 post 이미지 줄이기 */
-.post img,
-.post-thumbnail img,
-article img {
-  max-width: 70% !important;
-  height: auto !important;
-  display: block !important;
-  margin: 0 auto !important;
-}
-
-/* 3) 메인페이지 post 글자 크기 줄이기 */
-.post,
-.post-content,
-.post-list,
-.content-box {
-  font-size: 15px !important;
-  line-height: 1.6 !important;
-}
