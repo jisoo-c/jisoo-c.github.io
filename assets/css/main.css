@@ -1479,3 +1479,17 @@ a.newer-posts:hover {
     font-size: 21px;
   }
 }
+
+.cover-author-image {
+  width: 220px !important;
+  height: 220px !important;
+  margin: 0 auto 20px !important;
+}
+
+.cover-author-image img {
+  width: 220px !important;
+  height: 220px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  display: block !important;
+}
